@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class hello_world {
 public static void main (String[] args) {
 
@@ -5,9 +7,11 @@ public static void main (String[] args) {
     int sum = 1 ;
     int n = 5;
 
+    Date today = new Date();
+
     for(i=1;i<=n;i++) {
         sum = i+sum ;
-        System.out.println("this is the sum inside for"+" "+sum);
+        System.out.println("this is the sum inside for"+" "+sum+" "+today);
     }
     do {
         i=i+1;
