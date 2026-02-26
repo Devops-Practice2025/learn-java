@@ -7,12 +7,13 @@ public static void main (String[] args) {
 
     for(i=1;i<=n;i++) {
         sum = i+sum ;
-        System.out.println(value of sum+sum);
+        System.out.println("value of sum"+" "+sum);
     }
     while(i<n)
     {
-        System.out.println(i);
+        System.out.println(n);
         i++;
+        n++;
     }
     
 }}
